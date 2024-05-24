@@ -1,0 +1,14 @@
+GET https://kinsuk8s203njscpdiitb.drops.nxtwave.tech/movies/
+
+###
+POST https://kinsuk8s203njscpdiitb.drops.nxtwave.tech/movies/
+Content-Type: application/json
+
+{
+  "directorId": 6,
+  "movieName": "Jurassic Park",
+  "leadActor": "Jeff Goldblum"
+}
+
+###
+GET https://kinsuk8s203njscpdiitb.drops.nxtwave.tech/movies/100/
