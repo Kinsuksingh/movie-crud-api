@@ -19,7 +19,7 @@ const initializeDBAndServer = async () => {
     })
     app.listen(3000, () => {
       console.log(
-        'Server Running at https://kinsuk8s203njscpdiitb.drops.nxtwave.tech',
+        'Server Running at http://localhost:3000/',
       )
     })
   } catch (error) {

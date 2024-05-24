@@ -1,7 +1,7 @@
-GET https://kinsuk8s203njscpdiitb.drops.nxtwave.tech/movies/
+GET http://localhost:3000/movies/
 
 ###
-POST https://kinsuk8s203njscpdiitb.drops.nxtwave.tech/movies/
+POST http://localhost:3000/movies/
 Content-Type: application/json
 
 {
@@ -11,4 +11,4 @@ Content-Type: application/json
 }
 
 ###
-GET https://kinsuk8s203njscpdiitb.drops.nxtwave.tech/movies/100/
+GET http://localhost:3000/movies/46/
